@@ -136,10 +136,10 @@ cd C:\Users\yourusername\Desktop\my-active-project
 adk run "C:\Users\yourusername\your_path_folder_to_coding_agent"
 ```
 
-Once it loads you can talk to the agent and create a gitignore
+Once it loads you can talk to the agent and tell it to create a gitignore
 
 # Make It Your Own
-Now that you understand how to give an agent hands, you can take this layout and build something completely different! 
+Now that you understand how to give an agent a hand, you can take this layout and build something completely different! 
 
 Challenge yourself to take things further!
 
