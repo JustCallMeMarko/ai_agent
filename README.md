@@ -1,11 +1,15 @@
 # Introduction
-When you're making any project and use git, we usually want to stage things fast so we usually do `git add .` which stages all files and folders, this is where `.gitignore` file comes in. 
+If you’ve ever started a fresh coding project, initialized Git, and immediately run `git add .`, you probably know the pain of accidentally staging massive `node_modules` folders, local environment keys (`.env`), or annoying system cache files. 
 
-#### What is the .gitignore file?
-The .gitignore file makes you ignore files when you stage files. This helps you keep track of versions correctly and avoid tracking temporary cache files or sensitive data. Making .gitignore file from scratch is very hard for beginners unless they use a template, so thats why in this Tutorial we are going to make an agent that automates all of this.
+This is exactly why we need a `.gitignore` file. It acts as a shield, telling Git exactly which files and folders to ignore so you don't leak sensitive data. However, creating a pristine `.gitignore` from scratch can be hard, especially when you are working with a niche stack.
+
+In this tutorial, we are going to fix that problem by **building an intelligent, automated Git Assistant from scratch using Google's Agent Development Kit (ADK) and the Gemini API!** Instead of copying and pasting generic online templates, we will build a custom AI agent that can inspect folder you are currently working in and dynamically write a tailored `.gitignore` file straight to your computer's disk.
+
+#### What is Google's ADK?
+The Google ADK is a fast and lightweight framework designed to let you build AI Agent applications incredibly fast. 
 
 #### What is an agent 
-An agent is an AI that can observe a task, decide what to do next, and take actions to reach a goal. In this project, the agent will help generate a `.gitignore` file based on the files and tools used in your project.
+An agent is an AI chatbot that can observe a task, decide what to do next, and take actions to reach a goal. In this project, the agent will help generate a `.gitignore` file based on the files and tools used in your project.
 
 # Creating the smart_gitignore_builder Agent
 ## 01 What you need to install
